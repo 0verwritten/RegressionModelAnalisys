@@ -1,5 +1,19 @@
 ## regression for customer data
 
+### how to display regression
+When performing linear regression with multiple parameters, you can display the results in a few different ways to understand the relationship between the independent variables and the dependent variable. Here are a few common approaches:
+
+1. Coefficient Estimates: Display the estimated coefficients for each independent variable in the regression equation. These coefficients represent the change in the dependent variable associated with a one-unit change in the corresponding independent variable, while holding all other variables constant. You can present these coefficients along with their standard errors, p-values, and confidence intervals to assess their statistical significance.
+
+2. Regression Equation: Present the regression equation itself, which shows the relationship between the independent variables and the dependent variable. The equation will include the estimated coefficients for each independent variable, along with their corresponding variable names. For example, if you have two independent variables x1 and x2, the equation might be written as: y = b0 + b1*x1 + b2*x2.
+
+3. Scatterplot with Regression Line: Create a scatterplot to visualize the relationship between one independent variable and the dependent variable. Add a regression line that represents the best-fit line through the data points. This can help illustrate how the independent variable(s) influence the dependent variable.
+
+4. Residual Plot: Plot the residuals (the differences between the observed values and the predicted values) against the independent variables. This plot helps assess the assumption of homoscedasticity (equal variance) and linearity. If the residuals exhibit a pattern or systematic deviation from randomness, it indicates a violation of these assumptions.
+
+5. R-squared and Adjusted R-squared: Display the R-squared value and adjusted R-squared value, which provide an indication of how well the independent variables explain the variation in the dependent variable. R-squared represents the proportion of variance in the dependent variable that is explained by the independent variables. Adjusted R-squared adjusts for the number of independent variables in the model.
+
+These are just a few ways to display and interpret linear regression results with multiple parameters. The choice of presentation depends on the context, audience, and the specific insights you want to convey.
 
 ### Theory:
 The Mean Squared Error (MSE) and R-squared are common evaluation metrics used to assess the performance of a regression model. Let's understand what these metrics mean and what values you should aim for:
